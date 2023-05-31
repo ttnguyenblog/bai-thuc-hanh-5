@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Phân tách chuỗi</title>
+</head>
+<body>
+    <div class="form-container">
+        <form action="#" method="get" class="form">
+            <div class="form-row">
+                <label class="form-label" for="txtChuoi">Chuỗi:</label>
+                <input class="form-input" type="text" name="txtChuoi" id="txtChuoi">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label" for="ddlDanhsach">Danh sách:</label>
+                <select class="form-input" id="ddlDanhsach" onchange="change()">
+                    
+                </select>
+                </div>
+
+            <div class="form-btn">
+                <input class="input-btn" type="submit" onclick="thuchien()">
+                <input class="input-btn" type="button" value="Huỷ" onclick="huy()">
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
