@@ -1,4 +1,4 @@
-# Bài thực hành 5: Ngôn ngữ kịch bản - Thêm Select option js
+# Thẻ select trong HTML
 
 Hãy thiết kế giao diện đơn giản như sau:
 
